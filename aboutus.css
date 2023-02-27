@@ -1,0 +1,168 @@
+* {box-sizing: border-box;}
+
+body{
+    background-color: rgb(60, 60, 60);
+    font-family: Verdana, sans-serif;
+}
+
+.bigbox{
+    width: 1200px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: "cursive", "Brush Script MT", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 70px;
+    margin: 15px;
+    color: rgb(226, 174, 16);
+}
+
+h2{
+  color: rgb(226, 174, 16);
+  font-size: 35px;
+  margin-top: auto;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+
+h4{
+  color: rgb(226, 174, 16);
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+
+table.main{
+    width: 1200px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table.table2{
+  text-align: center;
+  margin-left: 50px;
+}
+
+h3{
+     background-color: rgb(198, 184, 107);
+     color: black;
+     font-size: 25px;
+     margin-top: 5px;
+}
+
+
+table.table3{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+table.table4{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.location{
+  text-align: left;
+  margin-left: 25px;
+}
+
+span{
+  color: rgb(226, 174, 16);
+}
+
+.nextbox{
+    width: 900px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p{
+  text-align: left;
+  align-items: center;
+  margin-top: -100px;
+  margin-left: auto;
+}
+
+/* unvisited link */
+a:link {
+    color: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(226, 174, 16);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: none;
+  }
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  img{
+    height: fit-content;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  /* Slideshow container */
+.slideshow-container {
+  max-height: fit-content;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

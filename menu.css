@@ -1,0 +1,101 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+body{
+    background-color: rgb(60, 60, 60);
+}
+
+.bigbox{
+    width: 1200px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: "cursive", "Brush Script MT", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 70px;
+    margin: 15px;
+    color: rgb(226, 174, 16);  
+}
+
+table {
+    width: 1200px;
+    text-align: center;
+
+}
+
+h3{
+     background-color: rgb(198, 184, 107);
+     color: black;
+     font-size: 25px;
+     margin-top: 5px;
+}
+
+/* unvisited link */
+a:link {
+    color: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(226, 174, 16);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: none;
+  }
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+table.selections{
+    align-items: center;
+}
+
+img.selec{
+    width: 250px;
+}
+
+
+
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container img {vertical-align: middle;}
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }

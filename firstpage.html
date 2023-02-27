@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./firstpage.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <h1>
+        <a href="firstpage.html" rel="homepage">
+            makanan ceylon
+        </a>
+    </h1>
+
+<div class="bigbox">
+<table>
+<th>
+    <a href="aboutus.html" rel="aboutus">
+        <h3>About Us</h3>
+    </a>
+</th>
+<th>
+   <a href="menu.html" rel="menu">
+        <h3>Our Menu</h3>
+   </a>
+</th>
+<th>
+  <a href="https://share-eu1.hsforms.com/16X8IA-RJSi2JoflAVD5-Bgg37kt" rel="contact">
+    <h3>Contact Us</h3>
+    </a>
+</th>
+
+
+
+</table>
+
+</div>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <img src="chef.jpg" style="width:auto">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="cooking.jpg" style="width:auto">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="plating.jpg" style="width:auto">
+    </div>
+    
+    <div class="mySlides fade">
+        <img src="interior side.jpg" style="width:auto">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="Interior angle.jpg" style="width:auto">
+      </div>
+
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span> 
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+        </script>
+
+</body>
+</html>
